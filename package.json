@@ -1,0 +1,20 @@
+{
+  "name": "omnirepo",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {},
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "devDependencies": {
+    "@fullrepo/eslint-config": "*",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
