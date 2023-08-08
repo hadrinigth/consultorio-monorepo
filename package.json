@@ -1,5 +1,5 @@
 {
-  "name": "omnirepo",
+  "name": "fullrepo",
   "private": true,
   "version": "1.0.0",
   "main": "index.js",
@@ -7,14 +7,16 @@
   "scripts": {},
   "workspaces": {
     "packages": [
-      "packages/*"
+      "Packages/api/*",
+      "Packages/web/*"
     ]
   },
   "devDependencies": {
     "@fullrepo/eslint-config": "*",
-    "typescript": "^3.9.7"
+    "typescript": "5.1.6"
   },
   "dependencies": {
-    "dotenv": "^16.3.1"
+    "dotenv": "^16.3.1",
+    "turbo": "^1.10.12"
   }
 }
